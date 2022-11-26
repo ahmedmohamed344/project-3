@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+span {
+    color: green;
+}
+.ahhmed {
+    margin-top: 100px;
+}
+/* small screen */
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+}
+/* medium screen */
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large screen */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/*//////////////////////////////////////////////*/
+.numbers {
+    position: relative;
+    background-image: url(../images/wallpapersden.com_hacker-anonymous-evil_2560x1440.jpg);
+    height:310px;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1449px;
+    margin-left:-100px ;
+    background-color: #000;
+    opacity: 4.9;
+}
+.num2 {
+    position: relative;
+    background-image: url(../images/R.jfif);
+    height:327px;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1449px;
+    margin-left:-100px ;
+    background-color: #000;
+    opacity: 4.9;
+}
+.myicon{
+    height:30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+
+
+
